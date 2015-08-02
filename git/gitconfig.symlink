@@ -29,6 +29,7 @@
         whitespace = nowarn
 [mergetool]
         keepBackup = false
+        cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 [difftool]
         prompt = false
 [help]
