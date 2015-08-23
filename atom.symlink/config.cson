@@ -34,3 +34,8 @@
     showOnStartup: false
   "release-notes":
     viewedVersion: "0.89.0"
+  "autocomplete-bibtex":
+    bibtex: [
+      "/Users/briandanielak/Documents/library.bib"
+    ]
+  "autocomplete-plus": {}
