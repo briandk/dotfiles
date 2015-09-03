@@ -39,3 +39,8 @@
       "/Users/briandanielak/Documents/library.bib"
     ]
   "autocomplete-plus": {}
+  Zen:
+    softWrap: true
+    typewriter: true
+    minimap: true
+    width: 140
