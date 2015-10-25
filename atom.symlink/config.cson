@@ -44,3 +44,5 @@
     minimap: true
     width: 140
   "markdown-table-formatter": {}
+  latex: {}
+  "make-runner": {}
