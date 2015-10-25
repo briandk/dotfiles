@@ -1,10 +1,12 @@
 "*":
   editor:
     showIndentGuide: true
-    fontFamily: "Menlo"
+    fontFamily: "Inconsolata"
     invisibles: {}
-    fontSize: 15
+    scrollPastEnd: true
+    softWrap: true
     softWrapAtPreferredLineLength: true
+    preferredLineLength: 100
   core:
     ignoredNames: [
       ".bundle"
@@ -14,15 +16,12 @@
       "tmp"
       "vendor"
     ]
-    themes: [
-      "unity-ui"
-      "glacier-syntax"
-    ]
     hideGitIgnoredFiles: true
     disabledPackages: [
       "background-tips"
       "exception-reporting"
       "metrics"
+      "latexer"
     ]
   "spell-check":
     grammars: [
@@ -36,7 +35,7 @@
     viewedVersion: "0.89.0"
   "autocomplete-bibtex":
     bibtex: [
-      "/Users/briandanielak/Documents/library.bib"
+      "/Users/briandanielak/Documents/bibtex/2015-10-21-zotero-library/2015-10-21-zotero-library.bib"
     ]
   "autocomplete-plus": {}
   Zen:
@@ -44,3 +43,4 @@
     typewriter: true
     minimap: true
     width: 140
+  "markdown-table-formatter": {}
