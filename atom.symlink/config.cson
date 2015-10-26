@@ -7,6 +7,7 @@
     softWrap: true
     softWrapAtPreferredLineLength: true
     preferredLineLength: 100
+    fontSize: 16
   core:
     ignoredNames: [
       ".bundle"
@@ -35,7 +36,7 @@
     viewedVersion: "0.89.0"
   "autocomplete-bibtex":
     bibtex: [
-      "/Users/briandanielak/Documents/bibtex/2015-10-21-zotero-library/2015-10-21-zotero-library.bib"
+      "/Users/brian/dev/JLS-Manuscript-Rebecca-Study/Drafts/bibliography.bib"
     ]
   "autocomplete-plus": {}
   Zen:
@@ -46,3 +47,6 @@
   "markdown-table-formatter": {}
   latex: {}
   "make-runner": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
