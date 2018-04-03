@@ -4,7 +4,7 @@
 [hub]
         protocol = https
 [user]
-		name = Brian Danielak	
+		name = Brian Danielak
 		email = brian@briandk.com
 [credential]
         helper = osxkeychain
@@ -23,8 +23,14 @@
         branch = auto
         ui = true
 [core]
-		excludesfile = ~/.gitignore
-        editor = mate
+        excludesfile = ~/.gitignore
+        editor = atom-beta --wait
+[credential]
+		helper = osxkeychain
+
+[user]
+		name = Brian Danielak
+		email = briandaniela.k+github@gmail.com
 [apply]
         whitespace = nowarn
 [mergetool]
@@ -42,7 +48,7 @@
         default = simple
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
+	path =
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
