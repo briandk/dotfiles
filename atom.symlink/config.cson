@@ -29,7 +29,6 @@
       "metrics"
       "react"
       "linter-rubocop"
-      "tree-view"
     ]
     followSymlinks: false
     hideGitIgnoredFiles: true
@@ -56,7 +55,7 @@
 >>>>>>> 68a370fc4bbbda37404b58b3cca72e9869cf8e82
     ]
   editor:
-    fontFamily: "Menlo"
+    fontFamily: "Operator Mono for Powerline"
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
