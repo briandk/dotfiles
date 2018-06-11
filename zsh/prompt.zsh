@@ -2,6 +2,21 @@ autoload colors && colors
 # cheers, @ehrenmurdick
 # http://github.com/ehrenmurdick/config/blob/master/zsh/prompt.zsh
 
+#use extended color pallete if available
+if [[ $TERM = *256color* || $TERM = *rxvt* ]]; then
+    turquoise="%F{81}"
+    orange="%F{166}"
+    purple="%F{135}"
+    hotpink="%F{161}"
+    limegreen="%F{118}"
+else
+    turquoise="$fg[cyan]"
+    orange="$fg[yellow]"
+    purple="$fg[magenta]"
+    hotpink="$fg[red]"
+    limegreen="$fg[green]"
+fi
+
 if (( $+commands[git] ))
 then
   git="$commands[git]"
@@ -61,7 +76,15 @@ battery_status() {
   fi
 }
 
-export PROMPT=$'\n$(battery_status)in $(directory_name) $(git_dirty)$(need_push)\n› '
+directory_name() {
+  echo "%{$limegreen%}%~%{$reset_color%}"
+}
+
+user() {
+  echo "%{$purple%}%n%{$reset_color%}"
+}
+
+export PROMPT=$'\n$(rb_prompt)$(user) in $(directory_name) $(git_dirty)$(need_push)\n› '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }

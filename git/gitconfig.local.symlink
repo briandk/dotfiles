@@ -1,0 +1,5 @@
+[user]
+        name = Brian A. Danielak
+        email = briandaniela.k+github@gmail.com
+[credential]
+        helper = osxkeychain
