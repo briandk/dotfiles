@@ -1,34 +1,25 @@
 "*":
-  editor:
-    showIndentGuide: true
-    fontFamily: "Inconsolata"
-    invisibles: {}
-    scrollPastEnd: true
+  Zen:
+    minimap: true
     softWrap: true
-    softWrapAtPreferredLineLength: true
-    preferredLineLength: 100
-    fontSize: 16
+    typewriter: true
+    width: 140
+  "atom-beautify":
+    general:
+      _analyticsUserId: "9d0f0305-1145-49a3-b41b-0146beea1dd3"
+  "autocomplete-bibtex":
+    bibtex: [
+      "/Users/brian/dev/JLS-Manuscript-Rebecca-Study/Drafts/bibliography.bib"
+    ]
+  "autocomplete-plus": {}
+  "autocomplete-python":
+    useKite: false
   core:
-    closeDeletedFileTabs: true
-    closeEmptyWindows: false
-    customFileTypes:
-      "source.ini": [
-        ".buckconfig"
-        ".hgrc"
-        ".flowconfig"
-      ]
-      "source.json": [
-        "BUCK.autodeps"
-      ]
-      "source.python": [
-        "BUCK"
-      ]
     disabledPackages: [
       "background-tips"
       "exception-reporting"
       "metrics"
-      "react"
-      "linter-rubocop"
+      "latexer"
     ]
     followSymlinks: false
     hideGitIgnoredFiles: true
@@ -40,42 +31,24 @@
       "tmp"
       "vendor"
     ]
-<<<<<<< HEAD
-    telemetryConsent: "no"
-    themes: [
-      "one-light-ui"
-      "one-light-syntax"
-=======
-    hideGitIgnoredFiles: true
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-      "latexer"
->>>>>>> 68a370fc4bbbda37404b58b3cca72e9869cf8e82
-    ]
+    telemetryConsent: "limited"
   editor:
-    fontFamily: "Operator Mono for Powerline"
+    fontFamily: "Fira Code"
+    fontSize: 15
     invisibles: {}
+    preferredLineLength: 100
+    scrollPastEnd: true
     showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
     softWrapAtPreferredLineLength: true
-  "go-plus":
-    panel:
-      currentHeight: "24.11111111111111vh"
-    panelDisplayMode: "closed"
-    test: {}
-  "linter-eslint":
-    useGlobalEslint: true
-  "linter-rubocop": {}
-  "linter-ui-default":
-    panelHeight: 301
-  nuclide:
-    "atom-ide-code-format":
-      formatOnType: false
-    "nuclide-flow": {}
-  "prettier-atom":
-    formatOnSaveOptions:
-      enabled: true
+  "ide-python": {}
+  latex: {}
+  "make-runner": {}
+  "markdown-table-formatter": {}
+  minimap:
+    plugins:
+      "highlight-selected": true
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
@@ -83,37 +56,6 @@
       "text.plain"
       "source.gfm"
       "text.git-commit"
-      "text.html.basic"
     ]
-  stylefmt:
-    formatOnSave: true
   welcome:
     showOnStartup: false
-<<<<<<< HEAD
-".js.jsx.react.source":
-  editor:
-    autoIndent: true
-".js.jsx.source":
-  editor:
-    autoIndent: false
-    autoIndentOnPaste: false
-=======
-  "release-notes":
-    viewedVersion: "0.89.0"
-  "autocomplete-bibtex":
-    bibtex: [
-      "/Users/brian/dev/JLS-Manuscript-Rebecca-Study/Drafts/bibliography.bib"
-    ]
-  "autocomplete-plus": {}
-  Zen:
-    softWrap: true
-    typewriter: true
-    minimap: true
-    width: 140
-  "markdown-table-formatter": {}
-  latex: {}
-  "make-runner": {}
-  minimap:
-    plugins:
-      "highlight-selected": true
->>>>>>> 68a370fc4bbbda37404b58b3cca72e9869cf8e82
